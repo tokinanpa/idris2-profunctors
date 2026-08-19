@@ -42,7 +42,7 @@ interface Profunctor p where
   rmap = dimap id
 
 
-infix 0 :->
+export infix 0 :->
 ||| A transformation between profunctors that preserves their type parameters.
 |||
 ||| Formally, this is a natural transformation of functors `Idrᵒᵖ * Idr => Idr`.
